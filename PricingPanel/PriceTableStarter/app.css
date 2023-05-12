@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    
+main{
+    background-color: rgb(81, 122, 246);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.panel-pricing-table{
+    width: 65%;
+    height: 70%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.pricing-plan{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing-plan:nth-child(1){
+  border-right: 2px #ddd solid;
+}
+
+.pricing-plan:nth-child(2){
+  border-right: 2px #ddd solid;
+}
+
+.pricing-img{
+  width: 70%;
+
+}
+
+.pricing-header{
+    color: grey;
+    font-size:smaller;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.pricing-features{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-features-item{
+    color: rgb(81, 122, 246);
+    width: 100%;
+    text-align: center;
+    font-size:x-small;
+    padding: 10px 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    list-style-type: none 
+}
+
+.pricing-features-item:nth-of-type(1){
+    border-top: 1px #ddd solid;
+}
+
+.pricing-features-item:nth-of-type(2){
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+}
+
+.pricing-price{
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(81, 122, 246);
+}
+
+
+.pricing-button{
+    text-decoration: none;
+    color: rgb(81, 122, 246);
+    padding: 6px 28px;
+    border: 1px rgb(81, 122, 246) solid;
+    border-radius: 5px;
+    transition: 0.14s;
+}
+
+.pricing-button:hover{
+    color:aliceblue;
+    background-color: rgb(81, 122, 246);
+}
+
+.pricing-button-is-featured{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(81, 122, 246);
+    padding: 6px 28px;
+    border: 1px rgb(81, 122, 246) solid;
+    border-radius: 5px;
+    transition: 0.14s;
+}
+
+.pricing-button-is-featured:hover{
+    color:rgb(81, 122, 246);
+    background-color: aliceblue;
+}
